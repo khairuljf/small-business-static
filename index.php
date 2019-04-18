@@ -35,7 +35,14 @@
 <link rel="apple-touch-icon-precomposed" href="assets/images/belocal.png" />
 <meta name="msapplication-TileImage" content="assets/images/belocal.png" />
 
-<style type="text/css" title="dynamic-css" class="options-output">#website-loading{background-color:transparent;}.loading-title{color:#353558;}.head-section{background-color:#0a0a0a;}.head-section{padding-top:10px;padding-bottom:10px;}.banner-sec{background-repeat:no-repeat;background-size:cover;background-position:center center;background-image:url('assets/images/cover2.jpg');}.page-content-section{padding-top:50px;padding-bottom:50px;}.license-fees-section{background-repeat:no-repeat;background-size:cover;background-position:center center;background-image:url('http://smallproject.belocal.today/wp-content/uploads/2018/08/Lessons-BG.jpg');}.footer-bottom{background-color:#000000;}#copyright{color:#ffffff;}.inner-banner-section{background-repeat:no-repeat;background-size:cover;background-position:center center;background-image:url('http://smallproject.belocal.today/wp-content/uploads/2018/08/inner-header-bg.jpg');}.inner-banner-section h1{color:#ffffff;}
+<style type="text/css" title="dynamic-css" class="options-output">
+#website-loading{background-color:transparent;}.loading-title{color:#353558;}
+.head-section{background-color:#0a0a0a;}
+.head-section{padding-top:10px;padding-bottom:10px;}
+.banner-sec{background-repeat:no-repeat;background-size:cover;background-position:center center;background-image:url('assets/images/cover2.jpg');}.page-content-section{padding-top:50px;padding-bottom:50px;}
+.license-fees-section{background-repeat:no-repeat;background-size:cover;background-position:center center;background-image:url('assets/images/Lessons-BG.jpg');}.footer-bottom{background-color:#000000;}
+#copyright{color:#ffffff;}.inner-banner-section{background-repeat:no-repeat;background-size:cover;background-position:center center;background-image:url('assets/images/inner-header-bg.jpg');}
+.inner-banner-section h1{color:#ffffff;}
 </style>	
 
 </head>
@@ -118,8 +125,8 @@
        <div class="row">
             <div class="col-12 col-md-3 col-lg-3">
                     <div class="main-header-logo">
-                        <a href='http://smallproject.belocal.today/' >
-                            <img   src='assets/images/logo-2.png' alt='imageimageLogo' class="img-fluid mx-auto d-block logo" />               
+                        <a href='#' >
+                            <img   src='assets/images/logo-2.png' alt='imageimageLogo' class="img-fluid mx-auto d-block logo" />    
                         </a>
                     </div> 
             </div>
@@ -128,13 +135,13 @@
                     <div id="cssmenu" class="menu-primary-container">
                         <ul id="menu-primary" class="menu">
                             <li id="menu-item-9" class="ps2id menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item active">
-                                <a href="http://smallproject.belocal.today/" class="js-scroll-trigger"><span>Home</span></a>
+                                <a href="#" class="js-scroll-trigger"><span>Home</span></a>
                             </li>
                             <li id="menu-item-156" class="menu-item menu-item-type-custom menu-item-object-custom">
                                 <a href="#about-us" class="js-scroll-trigger"><span>About Us</span></a>
                             </li>
                             <li id="menu-item-16" class="ps2id menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item active">
-                                <a href="/#Services" class="js-scroll-trigger"><span>Services</span></a>
+                                <a href="#Services" class="js-scroll-trigger"><span>Services</span></a>
                             </li>
                             <li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom">
                                 <a href="#gallery" class="js-scroll-trigger"><span>Gallery</span></a>
@@ -168,7 +175,7 @@
                 <div class="row">
                     <div class="col-12">
                         <a href='#' >
-                            <img   src='assets/images/logo-2.png' alt='imageimageLogo' class="img-fluid d-block logo" />                       
+                            <img   src='assets/images/logo-2.png' alt='imageimageLogo' class="img-fluid d-block logo" />            
                         </a>             
                     </div>
                 </div>
@@ -185,16 +192,16 @@
             <form action="#" method="post">
             <div class="form-row">
                     <div class="col-md-3 col-12  my-2">
-                                <input type="text" class="form-control" name="uname" required id="name" placeholder="Name*">   
+                        <input type="text" class="form-control" name="uname" required id="name" placeholder="Name*">   
                     </div>
                     <div class="col-md-3 col-12 my-2">
-                                <input type="tel" class="form-control" name="uphone" id="phone" required placeholder="Phone*">
+                        <input type="tel" class="form-control" name="uphone" id="phone" required placeholder="Phone*">
                     </div>
                     <div class="col-md-3 col-12 my-2">
-                                <input type="email" class="form-control" name="umail" id="email"  placeholder="Email">
+                        <input type="email" class="form-control" name="umail" id="email"  placeholder="Email">
                     </div>
                     <div class="col-4 col-md-3 my-2">
-                            <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                        <input type="submit" name="submit" class="btn btn-primary" value="Submit">
                     </div>
                 </div>
             </form>
@@ -497,7 +504,6 @@
                 <div class="gallery-body">
                    <h1>Gallery</h1>
                 </div>
-                
 					<!-- START UNITE GALLERY LITE 1.7.51 -->
 			<div id='unitegallery_1_1' class='unite-gallery' style='margin:0px auto;'>
 				

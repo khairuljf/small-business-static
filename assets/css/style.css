@@ -34,11 +34,11 @@ a:hover{text-decoration: none!important;}
 .top-phone a { margin: 0;line-height: 1.4; color: rgb(255, 215, 3);font-size: 1.7rem; }
 .top-phone:hover a { color: rgb(255, 215, 3);  }
 
-section.banner-sec { min-height: 91vh; }
+section.banner-sec { min-height: 94vh; }
 
 @media (min-width: 1024px) {
   
-section.banner-sec { min-height: 72vh; }
+section.banner-sec { min-height: 74vh; }
   
 }
 .bannerservice { position: absolute; top: 220px; color: #fff; background: rgba(10, 10, 10, 0.26);
@@ -299,7 +299,6 @@ div#wprmenu_menu { line-height: 1.4; }
 }
 
 #service-lists{
-	width: 100%;
 	border: 0;
 	text-align: center;
 }
@@ -565,14 +564,11 @@ form#form_g6czc .frm_submit button.frm_button_submit.frm_final_submit {
 }
 
 @media (max-width:600px){
-	
-
 	form#form_g6czc  .frm_style_formidable-style.with_frm_style .form-field{
 		width: 100%;
 		margin-left: 0;
 	}
 	form#form_g6czc .frm_submit button.frm_button_submit.frm_final_submit{ margin-left: 0;width: auto!important;}
-
 }
 
 
