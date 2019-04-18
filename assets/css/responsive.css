@@ -1,0 +1,180 @@
+/*******Mozilla Firefox Hack*******/
+@-moz-document url-prefix() { 
+    .int-over-drivers { min-height: 626px; }
+}
+
+/*******Internet Explorer Hack*******/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .int-over-drivers { min-height: 626px; }
+    div#license-demo .owl-prev { padding: 20px 15px; }
+    div#license-demo .owl-next { padding: 20px 15px; }
+    div#license-demo .owl-prev::before { margin-top: -8px; }
+    div#license-demo .owl-next::before { margin-top: -8px; }
+    .footer-info p { white-space: pre; }
+    .footer-info.d-flex.justify-content-center.align-items-center.flex-column.pl-3.pr-3 { padding: 55px 0 }
+
+}
+
+/*******Safari Hack*******/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+}
+
+@media all and (min-width:0) and (max-width:991px) {
+    .header-wrap img{width: 60%}
+    .mobile-header-logo { padding: 15px 0; }
+    .flex-container-200 { padding: 0 15px !important; }
+    .flex-container-150 { padding: 0 15px !important; }
+    .content-body h1 { font-size: 25pt; }
+    .license-title h2 { font-size: 2rem; }
+    .license-columns .header { font-size: 2rem; }
+    .license-columns .header-body h2 { font-size: 1.5rem; }
+    .free-keys2drive-title h2 { font-size: 20pt; }
+    .free-keys2drive-body { margin-bottom: 20px; }
+    .int-over-drivers { padding: 15px; margin-bottom: 20px;min-height: 460px; }
+    .int-over-drivers h2 { font-size: 20pt; }
+    .instructors { padding: 15px;  }
+    .instructors h2 { font-size: 20pt; }
+    .footer-info { margin-bottom: 20px; }
+    .social { margin-top: 10px; }
+    .social.d-flex.align-items-center.justify-content-end {justify-content: center !important; }
+    .totop { display: none !important; }
+    .footer-info img.map { width: 100%; }
+    #copyright { font-size: 11pt; }
+}
+
+/*******Mobile General Landscape*******/
+@media all and (min-width:0) and (max-width:768px) and (orientation: landscape) {
+    .int-over-drivers { min-height: 380px; }
+    
+}
+
+
+/*==========i-phone portrait media query==============*/
+@media all and (min-width:320px) and (max-width:359px) {
+    .banner-sec, .inner-banner-section {
+    min-height: 86vh!important;
+    background-position: 54% 100% !important;
+}
+    
+}
+/*============i-phone landscape media query================*/
+@media all and (min-width:480px) and (max-width:600px) {
+    .banner-sec, .inner-banner-section {
+    background-position: 54% 100% !important;
+}
+    
+}
+/*==========samsung s4 portrait media query==============*/
+@media only screen and (min-width:360px) and (max-width:374px) {
+    .banner-sec, .inner-banner-section {
+    min-height: 86vh!important;
+    background-position: 54% 100% !important;
+}
+    
+    
+}
+/*==========samsung s4 landscape media query================*/
+@media (min-width:601px) and (max-width:650px) {
+    .banner-sec, .inner-banner-section {
+    min-height: 74vh!important;
+    background-position: 54% 100% !important;
+}
+}
+
+/*==========i-phone 6 portrait media query==============*/
+@media only screen and (min-width:375px) and (max-width:479px) { 
+   .banner-sec, .inner-banner-section {
+    min-height: 88vh!important;
+    background-position: 54% 100% !important;
+}
+    
+    
+}
+
+/*============i-phone 6 landscape media query================*/
+@media (min-width:651px) and (max-width:767px) {
+    .banner-sec, .inner-banner-section {
+    min-height: 74vh!important;
+    background-position: 54% 100% !important;
+}
+}
+
+/*============i-phone 6 Plus landscape media query================*/
+@media (min-width:668px) and (max-width:767px) {
+    .banner-sec, .inner-banner-section {
+    min-height: 86vh!important;
+    background-position: 54% 100% !important;
+}
+}
+
+
+/*============i-tab portrait media query================*/
+@media (min-width:768px) and (max-width:1023px) {
+ .banner-sec, .inner-banner-section {
+    background-position: 54% 100% !important;
+}
+    .mobile-header-logo { padding: 15px 0; }
+    .flex-container-200 { padding: 0 15px !important; }
+    .flex-container-150 { padding: 0 15px !important; }
+    .int-over-drivers { padding: 15px; margin-bottom: 20px;min-height: 857px; }
+    .int-over-drivers h2 { font-size: 20pt; }
+    .instructors { padding: 15px;min-height: 857px;  }
+    .instructors h2 { font-size: 20pt; }
+    .footer-info { margin-bottom: 20px;min-height: 316px; }
+    .footer-info img.map { width: 100%; }
+    .footer-bottom { padding-bottom: 60px !important; }
+    .totop { display: none !important; }
+	#cssmenu > ul > li > a{font-size: 12pt;}
+	.top-phone a{font-size:16px;}
+}
+/*============i-tab landscape media query================*/
+@media (min-width:1024px) and (max-width:1279px) {
+    .flex-container { padding: 0 15px !important; }
+    .flex-container-200 { padding: 0 15px !important; }
+    .flex-container-150 { padding: 0 15px !important; }
+    .main-menu { min-height: 80px; }
+    .top-phone { min-height: 80px;margin-left: -10px; }
+    #cssmenu > ul > li > a { font-size: 12pt; }
+    .top-phone a { font-size: 1rem; }
+    .flex-container-150 { padding: 0 50px !important; }
+    .int-over-drivers { min-height: 815px; }
+/*    .bannerservice { position: absolute; top: 37px; }*/
+    .bannerservice h2 { font-size: 1.5rem }
+    .bannerservice a.about-button { font-size: 1rem; width: 25%; }
+    .int-over-drivers { padding: 15px; margin-bottom: 20px;min-height: 698px; }
+    .int-over-drivers h2 { font-size: 20pt; }
+    .instructors { padding: 15px;  }
+    .instructors h2 { font-size: 20pt; }
+    .totop { display: none !important; }
+    .is-sticky div#main-menu { min-height: 56px !important; }
+    .is-sticky .top-phone { min-height: 56px !important; }
+}
+/*============Samsung Galaxy Note 10.1 landscape media query================*/
+@media (min-width:1280px) and (max-width:1299px) { 
+    .top-phone a { font-size: 1rem; }
+    .flex-container-150 { padding: 0 50px !important; }
+    .int-over-drivers { min-height: 835px; }
+    
+}
+
+
+@media (min-width: 1300px) and (max-width:1499px) {   
+    .flex-container-150 { padding: 0 80px !important; }
+    .int-over-drivers { min-height: 815px; }
+    .top-phone a { font-size: 1.2rem; }
+}
+
+@media (min-width: 1500px) and (max-width:1700px) {
+    .flex-container-150 { padding: 0 100px !important; }
+    .int-over-drivers { min-height: 682px; }
+    .top-phone a { font-size: 1.5rem; }
+    
+}
+/*============19.5" to 23" device media query================*/ 
+@media only screen and (min-width: 2001px) {    
+    
+}
+/*============27" large device media query================*/ 
+@media only screen and (min-width : 2400px) {
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 100%; }
+}      
